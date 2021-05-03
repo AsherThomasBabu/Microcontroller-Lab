@@ -2,7 +2,7 @@
 
 ORG 0000H
     MOV R0,#5
-RPT:MOV R1,40H
+RPT:MOV R1,#40H
     MOV @R1,#50H
     INC R1
     DJNZ R0,RPT
