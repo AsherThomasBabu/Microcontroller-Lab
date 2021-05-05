@@ -1,3 +1,5 @@
+; Write an ALP to sort an array of N numbers in ascending order.
+
 ORG 0000H
     MOV R7,#4
 LOOP1: MOV R0,#40H
