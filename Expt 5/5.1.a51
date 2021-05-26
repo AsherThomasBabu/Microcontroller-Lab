@@ -19,7 +19,7 @@ ORG 0000H
     MOVX @DPTR, A 
     XCH A, B
     INC DPTR
-    MOVX @DPTR, A 
+    MOVX @DPTR, A  ; Final data stored in locations 9001 - 9003H
 
 HERE: SJMP HERE
 END
