@@ -1,3 +1,6 @@
+//3.Write an ALP for ASCII to decimal conversion and vice versa.
+
+
 ORG 0000H
     SJMP 30h
     ORG 30h

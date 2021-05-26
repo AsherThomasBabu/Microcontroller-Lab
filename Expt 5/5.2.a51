@@ -1,3 +1,5 @@
+// 2.Write an ALP for  decimal  to hexadecimal conversion.
+
 ORG 0000H
 
     SJMP 30H
